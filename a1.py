@@ -26,5 +26,5 @@ fn2 = fn1 * 0.18
 mtfp1 = float(input("Enter grade for Midterms and Final Preperation: "))
 mtfp2 = mtfp1 * 0.06
 
-grade = round(lpp2 + qica2 + as5 + mt3 + fn2 + mtfp2)
+grade = str(round(lpp2 + qica2 + as5 + mt3 + fn2 + mtfp2))
 print("Your grade is: " + grade)
